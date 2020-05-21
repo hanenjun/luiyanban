@@ -1,0 +1,34 @@
+	body{
+			background: url('../image/bg.jpg') no-repeat;
+			width:100%;
+		   	height:auto;
+			overflow: hidden;
+			background-size:cover;
+		}
+		.ly{
+			margin:0 auto;
+			margin-top:40px;	
+			z-index:10;
+			/*margin-left:65px;*/
+		}
+		.txt{
+			text-align: center;
+		}
+		.img{
+			
+			/*left:25%;*/
+			position: absolute;
+			top:0px;
+			z-index:-100;
+		}
+		table{
+			border-collapse: collapse;
+			border-color: #999999;
+			font-family: Georgia, "Times New Roman", Times, serif;
+			border:solid 1px #ccc;
+		}
+		table td{
+			border:solid 1px #ff9933; height:30px; padding-left:10px;
+		}
+		.d{background-color:#066; color:#fff; border:none; width:60px; height:30px; cursor:pointer;}
+		.over{background-color:#f60; color:#fff; border:none; width:60px; height:30px; cursor:pointer;}
